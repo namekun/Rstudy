@@ -7,7 +7,7 @@ library(psych)
 #describe(Volume)#좀더 직관적이라서 보기 좋다 
 #hist(Volume) 
 #boxplot(Volume) #분포를 보여줄 수 있는 그래프이면서, 통계를 보여주는 그래프
-
+ 
 
 ####확률변수의 기대값과 분산(A선수, B선수)####
 i <- c(300, 150, 0, -100)
