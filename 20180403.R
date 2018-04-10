@@ -1,11 +1,11 @@
-#install.packages("readxl")
+install.packages("readxl")
 library(readxl)
 
-student <- read_excel("C:/R/source/빈도분석.xls")
+student <- read_excel("D:/DEV64/R/source/빈도분석.xls")
 student
 attach(student)
 
-#install.packages("descr")
+install.packages("descr")
 library(descr)
 
 #도수분포표
@@ -41,7 +41,7 @@ var(x)
 
 
 #신장 정보 파일
-height <- read_excel("C:/R/통계/준비파일/3장_신장.xlsx")
+height <- read_excel("D:/DEV64/R/통계/준비파일/3장_신장.xlsx")
 
 class_a <- height[height$반=='A반', ]
 class_a <- as.numeric(class_a[2:11])
